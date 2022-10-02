@@ -1,4 +1,4 @@
-public class Sheep extends Vivaparous{
+public class Sheep extends Vivaparous implements Horned {
     public Sheep(int size) {
         super(size);
     }
@@ -11,5 +11,10 @@ public class Sheep extends Vivaparous{
     @Override
     public void walk() {
         System.out.println("Sheep walks...");
+    }
+
+    @Override
+    public void gore() {
+        System.out.println("Sheep gores...");
     }
 }

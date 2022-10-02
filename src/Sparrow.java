@@ -1,4 +1,4 @@
-public class Sparrow extends EggLaying{
+public class Sparrow extends EggLaying implements Flyable {
     public Sparrow(int size) {
         super(size);
     }
@@ -11,5 +11,10 @@ public class Sparrow extends EggLaying{
     @Override
     public void walk() {
         System.out.println("Sparrow walks...");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Sparrow flies...");
     }
 }

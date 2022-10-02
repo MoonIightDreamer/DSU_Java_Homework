@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef4875e3-3906-4b3d-bb40-9eb55aeef22f" name="Changes" comment="adding all the classes&#10;Creature - abstract super-class&#10;EggLaying and Vivaparous classes inherit class Creature&#10;Human, Cow, Sheep, Sparrow, Chicken, Pigeon - final classes">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="ef4875e3-3906-4b3d-bb40-9eb55aeef22f" name="Changes" comment="inheriting final classes from abstracts + abstract methods realizations">
+      <change afterPath="$PROJECT_DIR$/src/Bipedal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Horned.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chicken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EggLaying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EggLaying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pigeon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pigeon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sheep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sparrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sparrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vivaparous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vivaparous.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -73,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664743726844</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="inheriting final classes from abstracts + abstract methods realizations">
+      <created>1664744420273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664744420273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="adding all the classes&#10;Creature - abstract super-class&#10;EggLaying and Vivaparous classes inherit class Creature&#10;Human, Cow, Sheep, Sparrow, Chicken, Pigeon - final classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding all the classes&#10;Creature - abstract super-class&#10;EggLaying and Vivaparous classes inherit class Creature&#10;Human, Cow, Sheep, Sparrow, Chicken, Pigeon - final classes" />
+    <MESSAGE value="inheriting final classes from abstracts + abstract methods realizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheriting final classes from abstracts + abstract methods realizations" />
   </component>
 </project>

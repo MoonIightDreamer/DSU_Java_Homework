@@ -1,4 +1,4 @@
-public class Human extends Vivaparous{
+public class Human extends Vivaparous implements Bipedal {
     public Human(int size) {
         super(size);
     }
@@ -11,5 +11,10 @@ public class Human extends Vivaparous{
     @Override
     public void walk() {
         System.out.println("Human walks...");
+    }
+
+    @Override
+    public void jump() {
+        System.out.println("Human jumps...");
     }
 }
